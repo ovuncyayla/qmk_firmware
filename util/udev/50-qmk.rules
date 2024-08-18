@@ -84,3 +84,7 @@ SUBSYSTEMS=="usb", ATTRS{idVendor}=="28e9", ATTRS{idProduct}=="0189", TAG+="uacc
 
 # WB32 DFU
 SUBSYSTEMS=="usb", ATTRS{idVendor}=="342d", ATTRS{idProduct}=="dfa0", TAG+="uaccess"
+
+# 320f:5055 CIDOO ABM066
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="320f", ATTRS{idProduct}=="5055", TAG+="uaccess"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="320f", ATTRS{idProduct}=="5088", TAG+="uaccess"
